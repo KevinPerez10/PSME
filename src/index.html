@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PSME</title>
+        <link rel="icon" type="image/x-icon" href="/assets/images/logo.png" />
+
+        <link href="/dist/output.css" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="node_modules/swiper/swiper-bundle.min.css"
+        />
+    </head>
+    <body>
+        <nav class="flex items-center py-3">
+            <div class="">
+                <img class="w-20 mx-10" src="/assets/images/logo.png" alt="" />
+            </div>
+            <ul class="hidden lg:flex gap-5 uppercase font-bold">
+                <li
+                    class="cursor-pointer transition-all hover:text-black text-[#767676]"
+                >
+                    Home
+                </li>
+                <li
+                    class="cursor-pointer transition-all hover:text-black text-[#767676]"
+                >
+                    About
+                </li>
+                <li
+                    class="cursor-pointer transition-all hover:text-black text-[#767676]"
+                >
+                    Network
+                </li>
+                <li
+                    class="cursor-pointer transition-all hover:text-black text-[#767676]"
+                >
+                    Conferences
+                </li>
+                <li
+                    class="cursor-pointer transition-all hover:text-black text-[#767676]"
+                >
+                    Career and Education
+                </li>
+            </ul>
+            <div class="ml-auto mr-10 flex gap-3 font-bold">
+                <button class="py-2 px-8 rounded-full bg-[#d9d9d9]">
+                    Log In
+                </button>
+                <button class="py-2 px-5 rounded-full bg-[#F8C301]">
+                    Get Started
+                </button>
+            </div>
+        </nav>
+        <main class="flex px-10 flex-col items-center">
+            <header
+                class="h-screen flex flex-col xl:flex-row items-center justify-center w-full"
+            >
+                <div class="w-[80%] lg:w-[50%]">
+                    <img
+                        src="/assets/images/undraw_qa_engineers_dg-5-p.svg"
+                        alt=""
+                    />
+                </div>
+                <p
+                    class="text-textClamp text-center lg:w-[60%] xl:-ml-80 text-[#111E6C] font-bold"
+                >
+                    Philippine Society of Mechanical Engineers
+                </p>
+            </header>
+            <section class="h-screen">
+                <div class="grid grid-cols-2 gap-4">
+                    <div
+                        class="text-center col-span-2 lg:w-[50%] place-self-center"
+                    >
+                        <p class="font-bold text-2xl">Hi there, we are PSME</p>
+                        <p class="col-span-2">
+                            A dynamic hub for mechanical engineering
+                            professionals, offering expertise, publications,
+                            events, and resources to propel careers.
+                        </p>
+                    </div>
+
+                    <div class="col-span-2 lg:col-span-1">
+                        <p class="font-bold text-2xl">
+                            Founded in 1952, we are a premier organization with:
+                        </p>
+                        <ul class="">
+                            <li>
+                                - 104,000 Licensed Mechanical Engineers and
+                                Certified Plant Mechanics
+                            </li>
+                            <li>- 7,000+ Professional Mechanical Engineers</li>
+                            <li>
+                                - 87 Chapters across the Philippines and
+                                Worldwide
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="lg:col-span-1 col-span-2">
+                        <p class="font-bold text-2xl">
+                            Engage with us through our various conventions,
+                            conferences, and seminars:
+                        </p>
+                        <ul>
+                            <li>- 63rd National Convention</li>
+                            <li>- Philippine Machinery Exhibition</li>
+                            <li>- Regional Conferences</li>
+                            <li>- Mechanical Engineering Educators Congress</li>
+                            <li>- National Student Conference</li>
+                        </ul>
+                    </div>
+
+                    <p
+                        class="text-center col-span-2 lg:w-[50%] place-self-center"
+                    >
+                        Join us for Professional Development Courses and access
+                        over 45 Technical Sessions in our National Convention.
+                        Prioritizing user experience, we're here to connect,
+                        educate, and advance.
+                    </p>
+
+                    <div
+                        class="flex flex-col col-span-2 gap-3 font-bold w-full xs:w-[25%] md:w-[50%] lg:w-[10%] place-self-center"
+                    >
+                        <button class="py-2 rounded-full bg-[#F8C301]">
+                            Register
+                        </button>
+                        <button class="py-2 rounded-full bg-[#d9d9d9]">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+
+                <div
+                    class="swiper-container border-2 flex flex-col bg-white mt-20 p-8 gap-2 relative"
+                >
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <p class="text-2xl text-center font-bold">
+                                Upcoming Events
+                            </p>
+                            <p class="text-2xl font-bold text-[#111E6C]">
+                                71st PSME National Convention
+                            </p>
+                            <p class="italic">
+                                "Empowering Filipino Mechanical Engineers
+                                Towards Sustainable GREEN Industry for a Better
+                                Philippines"
+                            </p>
+                            <div
+                                class="rounded-full mt-20 mr-10 w-40 h-40 bg-gray-500 absolute right-0 top-0"
+                            ></div>
+                            <button
+                                class="py-2 px-6 flex w-fit rounded-full font-bold bg-[#F8C301]"
+                            >
+                                Register Now
+                            </button>
+                            <div class="mt-10 flex flex-col gap-2">
+                                <p>OCTOBER 12-14, 2023</p>
+                                <p>
+                                    SMX CONVENTION CENTER, PASAY, METRO MANILA,
+                                    PHILIPPINES
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </section>
+        </main>
+        <footer
+            class="w-full py-20 mt-40 flex flex-col px-20 bg-black border-2 text-white"
+        >
+            <p class="text-4xl font-bold my-10">Get in touch with us!</p>
+            <div class="flex flex-col gap-5">
+                <input type="text" placeholder="Name" />
+                <input type="text" placeholder="Email" />
+                <textarea
+                    placeholder="Message"
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="10"
+                ></textarea>
+            </div>
+            <p class="text-2xl font-bold mt-10">Head Office</p>
+            <p class="my-5">
+                PSME Building#19A Scout Bayoran St., Brgy. South Triangle,
+                Quezon City, Philippines
+            </p>
+            <div>
+                <ul>
+                    <li>
+                        Office of the National President: president@psme.org.ph
+                    </li>
+                    <li>Executive Director: execdirector_natsec@psme.org.ph</li>
+                    <li>
+                        Membership Department: mido@psme.org.ph /
+                        membership@psme.org.ph
+                    </li>
+                    <li>
+                        Accounting Department: accounting@psme.org.ph National
+                    </li>
+                    <li>Convention Secretariat: natcon@psme.org.ph</li>
+                    <li>Technical Department: secretariat.td@psme.org.ph</li>
+                    <li>Training Courses: atc@psme.org.ph</li>
+                    <li>Regional: regionalsec@psme.org.ph</li>
+                    <li>
+                        Lost Password and Website Concern:
+                        delegates@psme.org.phPSME.org.ph
+                    </li>
+                    <li>Web Administrator: mypsme.admin@psme.org.ph</li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
